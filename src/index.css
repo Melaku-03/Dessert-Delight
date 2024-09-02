@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.badge-1 {
+    @apply absolute left-1/2 transform -translate-x-1/2 bg-red rounded-full py-2 bottom-2 translate-y-7 w-44 font-semibold flex items-center justify-around gap-1 text-white;
+}
+
+.badge {
+    @apply absolute left-1/2 transform -translate-x-1/2 bg-white text-black rounded-full py-2 bottom-2 translate-y-7 w-44 border border-gray-500 font-semibold flex items-center justify-center gap-1;
+}
+
+.icon-circle-1 {
+    @apply border-rose-400 p-1 border-2 rounded-full w-6 h-6 cursor-pointer;
+}
+
+.icon-circle {
+    @apply border-white border-2 p-1 rounded-full w-6 h-6 cursor-pointer;
+}
+
+.btn {
+    @apply bg-red w-full rounded-full p-3 text-white mt-5;
+}
+
+.confirm {
+    background: #000000b3;
+}
